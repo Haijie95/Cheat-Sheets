@@ -57,10 +57,10 @@ set APP_PORT=8090
 2. Thymeleaf-Iteration
 - In the form 
 ```
-        action="#" 
-        th:action="@{/rand/generate}"   <-action will point to the next direction
+        action="#"                      <- this will null the default action
+        th:action="@{/rand/generate}"   <- action will point to the next direction
         th:object="${generateObj}"      <- object will store the user input into that object
-        method="post"                   <-post will mean go to the post mapping of the action
+        method="post"                   <- post will mean go to the post mapping of the action
         
         <p>
             <input type="text" th:field="*{numberVal}" />
@@ -132,6 +132,7 @@ Copy and paste xD
 ## **Lesson Sixteen**
 ### Rest Controller
 1. Create all the models 
+- remember to implement serializable
 2. Make them return toJson value
 3. Make Service -  it will contain all the methods for processing the data 
 4. RedisConfig can copy paste
