@@ -52,6 +52,26 @@ set APP_PORT=8090
 ---
 
 ## **Lesson Twelve**
+### Methods used
+1. Dynamic Content
+2. Thymeleaf-Iteration
+- In the form 
+```
+        action="#" 
+        th:action="@{/rand/generate}"   <-action will point to the next direction
+        th:object="${generateObj}"      <- object will store the user input into that object
+        method="post"                   <-post will mean go to the post mapping of the action
+        
+        <p>
+            <input type="text" th:field="*{numberVal}" />
+            <input type="submit" value="Generate" />
+        </p>
+        <-In the text field the value is entered is stored in {numberVal}
+```
+3. Methods, resources, status
+4. GET method query string
+
+---
 
 ## **Lesson Thirteen**
 ### Run with different args
@@ -105,7 +125,7 @@ lindex cart 0
 
 ## **Lesson Fourteen**
 1. Redis Config
-Copy and paster xD
+Copy and paste xD
 
 ---
 
@@ -172,11 +192,11 @@ https://openweathermap.org/weather-conditions
 ### Application Properties
 1.Railway settings
 ```
-spring.redis.host=${REDISHOST}
-spring.redis.port=${REDISPORT}
-spring.redis.username=${REDISUSER}
-spring.redis.password=${REDISPASSWORD}
-spring.redis.client.type=jedis
+spring.data.redis.host=${REDISHOST}
+spring.data.redis.port=${REDISPORT}
+spring.data.redis.username=${REDISUSER}
+spring.data.redis.password=${REDISPASSWORD}
+spring.data.redis.client.type=jedis
 ```
 2. Local settings
 ```
