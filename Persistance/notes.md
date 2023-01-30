@@ -203,3 +203,10 @@ order by first_name asc,last_name asc
 delete from tv_shows where prog_id = 10001;
 ```
 - Deleting rows that contain specific values
+## How to get the EER Diagram
+1. After the creation of all the tables
+2. Go to database at the top
+3. Reverse Engineer
+4. Select the schema that you want
+5. Next and finish
+6. You should be able to see the EER diagram
