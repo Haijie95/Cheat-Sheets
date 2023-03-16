@@ -12,6 +12,17 @@
 - Each record is a row
 - Each column is a field
 - Blob is image store as a string object
+- Schema refers to the organisation of the data
+- Many is denoted by the triangle at the EER side
+- Foreign key is usually at the many side
+### C.R.U.D
+1. Create
+- Create is create
+2. Read
+- Read is select
+3. Update
+4. Delete
+
 
 ---
 
@@ -47,6 +58,11 @@ use leisure;
 create table tv_shows ();     -
 ```
 - Create the table for the database
+### **Duplicate the exact same table**
+```
+create table customer3 as select * from customer;
+```
+- Copy everything into a new table
 ### **Field Creation**
 ```
     prog_id int not null,
@@ -200,9 +216,44 @@ order by first_name asc,last_name asc
 4. Only similar first_name will be reshuffled by the 2nd sorting
 ### Delete
 ```
-delete from tv_shows where prog_id = 10001;
+delete from customer2 where id=6;
+delete from customer2;
 ```
 - Deleting rows that contain specific values
+### Group By
+```
+select rating, count(rating)
+from tv_shows
+group by rating;
+```
+- Group them by their same value, ratings in this case
+### Order By
+```
+select 'Feb 2023' as period, room_id,count(*) cnt from reservation
+where start_date between '2023-02-01' and '2023-02-28'
+group by room_id
+order by cnt desc;
+```
+- Order them by the count in a descending order
+### Union
+```
+select 'Feb 2023' as period, room_id, count(*) cnt
+from reservation
+where start_date between '2023-02-01' and '2023-02-28'
+group by room_id
+union
+select 'Mar 2023' as period, room_id, count(*) cnt
+from reservation
+where start_date between '2023-03-01' and '2023-03-31'
+group by room_id;
+```
+- Union will combine the results that you draw out and filter
+- This case it will show feb and mar both together
+- Note: Column must be the same
+### Reset Count
+```
+ALTER TABLE tablename AUTO_INCREMENT = value;
+```
 ## How to get the EER Diagram
 1. After the creation of all the tables
 2. Go to database at the top
