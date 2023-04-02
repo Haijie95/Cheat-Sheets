@@ -201,8 +201,8 @@ spring.data.redis.client.type=jedis
 ```
 2. Local settings
 ```
-spring.data.redis.host=${REDISHOST}
-spring.data.redis.port=${REDISPORT}
+spring.data.redis.host=localhost    
+spring.data.redis.port=6379
 spring.data.redis.username=
 spring.data.redis.password=
 spring.data.redis.client-type=jedis
@@ -214,5 +214,3 @@ spring.data.redis.host=${REDISDOTCOM_HOST}
 spring.data.redis.port=${REDISDOTCOM_PORT}
 spring.data.redis.username=${REDISDOTCOM_USERNAME}
 ```
-
-## Love Calculator

@@ -28,7 +28,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 ```
 ## random
-https:// SEXx.com.sg
+https:// whx.com.sg
 POST        ->        CREATE
 GET         ->        READ
 PUT         ->        UPDATE
