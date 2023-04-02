@@ -13,7 +13,6 @@
 `git push -u origing master`
 7. Branching
 `git checkout -b tester`
-```
 Purpose is to work on a version while not touching the present version
 So as not to touch the Main
 8. To return to main
