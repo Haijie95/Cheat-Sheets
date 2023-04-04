@@ -1,4 +1,4 @@
-package Persistance;
+package Persistance.Mongo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

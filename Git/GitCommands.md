@@ -10,7 +10,7 @@
 5. Check the origin 
 `git remote -v`
 6. Pushing
-`git push -u origing master`
+`git push -u origin master`
 7. Branching
 `git checkout -b tester`
 Purpose is to work on a version while not touching the present version
