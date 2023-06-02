@@ -2,9 +2,9 @@
 
 1. Download and create account for MySQl
 > (https://dev.mysql.com/downloads/mysql/)
-> 2 Options - Online Install and Offline Install 
-> Online install smaller initial download size
-> Offline install larger initial download size
+- 2 Options -> Online Install and Offline Install 
+- Online install smaller initial download size
+- Offline install larger initial download size
 
 2. Set Up
 > Go for developer default
