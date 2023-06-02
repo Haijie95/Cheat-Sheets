@@ -13,5 +13,9 @@ spring.datasource.url=jdbc:mysql://localhost/hotelreservation
 spring.datasource.username=root
 spring.datasource.password=password
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
 ```
+
+# Things to note
+
+1. Data base can be viewed in MYSQL Workbench
+

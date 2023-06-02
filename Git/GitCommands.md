@@ -17,6 +17,8 @@ Purpose is to work on a version while not touching the present version
 So as not to touch the Main
 8. To return to main
 `git checkout main`
+9. To remove git init
+`rmdir /s .git`
 
 # Git ignore file
 1. create a .gitignore file

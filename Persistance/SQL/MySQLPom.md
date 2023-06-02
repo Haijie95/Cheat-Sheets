@@ -1,11 +1,12 @@
 # Pom needed
 1. Manually add in Json
 ```
-        <dependency> 
-            <groupId>org.glassfish</groupId>
-            <artifactId>jakarta.json</artifactId> 
-            <version>2.0.1</version>
-   		</dependency>
+        <!-- https://mvnrepository.com/artifact/org.glassfish/jakarta.json -->
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>jakarta.json</artifactId>
+			<version>2.0.1</version>
+		</dependency>
 ```
 2. Spring Data JDBC
 ```

@@ -18,15 +18,8 @@ Main: @Component
 3.  Spring boot dev tools
 4.  mysql driver
 5.  spring data jpa
-6.  lombok
-## APplication properties
-```
-spring.datasource.url=jdbc:mysql://localhost/hotelreservation
-spring.datasource.username=root
-spring.datasource.password=password
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+6.  lombok 
 
-```
 ## random
 https:// whx.com.sg
 POST        ->        CREATE
