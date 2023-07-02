@@ -23,4 +23,10 @@ Takes the mission of testing
 Using these will help you find the right techniques and gaps in testing strategy
 
 ### Agile Testing Quadrant
-![Example of ATQ](/images/ATQ.png)
+![Example of ATQ](/Images/ATQ.png)
+
+### Black Box Testing VS White Box Testing
+- Black Box -> Knowledge of how the system is built but does not inform the testing
+- White Box -> Knowledge of how the ststem is built and informs the testing or even the object of the tests
+
+## Test Planning 
