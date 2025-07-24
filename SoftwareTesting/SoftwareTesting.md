@@ -19,7 +19,7 @@ Takes the mission of testing
 2. **Coverage** : What is tested?
 3. **Potential Problems** : Why are you testing it? What could come up?
 4. **Activities** : How are you testing it?
-5. **Evaluation** : How are the results detemined?
+5. **Evaluation** : How are the results determined?
 Using these will help you find the right techniques and gaps in testing strategy
 
 ### Agile Testing Quadrant
@@ -27,6 +27,6 @@ Using these will help you find the right techniques and gaps in testing strategy
 
 ### Black Box Testing VS White Box Testing
 - Black Box -> Knowledge of how the system is built but does not inform the testing
-- White Box -> Knowledge of how the ststem is built and informs the testing or even the object of the tests
+- White Box -> Knowledge of how the system is built and informs the testing or even the object of the tests
 
 ## Test Planning 
