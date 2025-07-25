@@ -165,15 +165,92 @@
 ## Types of testing
 
 1. What is smoke testing?
+
+> - Smoke testing, also called build verification testing or confidence testing, is a software testing method that is
+    used to determine if a new software build is ready for the next testing phase
+
 2. What is sanity testing?
+
+> - It is a subset of regression testing.
+>- Sanity testing is performed to ensure that the code changes that are made are working properly.
+>- Sanity testing is a stoppage to check whether testing for the build can proceed or not.
+>- The focus of the team during the sanity testing process is to validate the functionality of the application and not
+   detailed testing.
+>- **Uses**:
+>> - Verification of Integration
+>>- Verification of Fixed Bugs
+>>- Efficiency of Time and Resources
+>>- Check for Regression
+>>- Repetitive Procedure
+
 3. What is regression testing?
+
+> - Regression testing allows testers to test an application after a change or modification.
+>- Running functional and non-functional tests ensures that previously developed and tested software performs as
+   expected.
+>- Ensuring that recent codes and additions are working properly does not the ability to run automation smoothly.
+
 4. What is retesting?
+
+> - Retesting in software testing is the process of re-executing test cases that previously failed, specifically to
+    verify that the bugs or defects identified have been correctly fixed by the developers.
+>- It focuses on the specific functionality where the bug was found, ensuring the fix is effective and the issue is
+   resolved.
+
 5. What is exploratory testing?
+
+> - Exploratory testing is a highly effective approach to testing software that gives testers the freedom to adapt and
+    experiment on the fly based on their observations of the system and user behaviors.
+>- Exploratory testing lets testers use their skills and know-how to run tests. It helps them find problems quickly
+   while also gathering useful feedback on the product.
+>- It relies more on the tester's learning and experience.
+>- Pros: Analyze the application effectively in live scenarios using the tester's creativity, experience and skill
+   influence testing outcomes. Helps to identify usability and UI issues.
+>- Cons: Lack of documentation for reference. Tester bias may exist and critical bugs might be missed.
+
 6. What is UAT?
+
+> - User Acceptance Testing. It's a phase in software development where the end-users or clients test the system to
+    ensure it meets their requirements and functions as expected in a real-world scenario before it's officially
+    released.
+>- Mainly done to validate that the software fulfils the business requirements and is usable and acceptable to the
+   end-users. It is to ensure that the software works as intended in the hands of the people who will actually be using
+   it.
+
 7. What is black box testing?
+
+> - Testers evaluate the functionality of an application without knowledge of its internal structure or code.
+>- Focusing on inputs and outputs to verify the application's behavior against requirements.
+>- More focus on the intended functions.
+
 8. What is white box testing?
+
+> - Testers evaluate the functionality of an application with knowledge of the internal structure, code, and logic of
+    the application being tested.
+>- Focuses on the code, algorithms, and data flow to ensure they function as intended.
+
 9. What is grey box testing?
+
+> - Tester has partial knowledge of the application's internal structure, combining elements of both black box and white
+    box testing.
+>- This approach allows testers to leverage their understanding of the system's architecture and data flow to identify
+   potential issues, while still focusing on how the system is used by end-users.
+
 10. What is compatibility testing?
+
+> - Compatibility testing is a type of software testing that verifies if a software application works correctly across
+    different environments.
+>- various operating systems, web browsers, hardware configurations, and network conditions.
+>- It ensures a consistent and seamless user experience regardless of the environment the software is used in.
+
+11. Testing Levels
+
+| Testing     | Meaning                                                                                                                                                                      | Uses                                                                                                                               |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Unit        | Testing done at ground level. Low level testing to test individual units or functions of the software under development.                                                     | Ensure each application section meets specific standards. Individual parts that is causing fault can be identified early and fixed |
+| Component   | Component testing allows testers to test multiple units or components in a single code.                                                                                      | Helps identify defects that may arise once the components are connected to each other                                              |
+| Integration | Combining different components into a group and testing them, integration testing helps to evaluate the system/component complies with the required functional requirements. | Verifies whether the application’s different modules or services are working well together                                         |
+| End-To-End  | End-to-end testing helps test the functionality and performance of the product under live settings.                                                                          | It helps to test the entire workflow from start to end, from data entering to processing to generating an output.                  |
 
 ## Bugs reporting and tools
 
